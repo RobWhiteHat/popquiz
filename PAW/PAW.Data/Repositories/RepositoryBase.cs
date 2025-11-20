@@ -1,8 +1,9 @@
-﻿using Microsoft.EntityFrameworkCore;
-using PAW3.Models.Entities;
-using PAW3.Data.MSSQL;
+﻿
+using Microsoft.EntityFrameworkCore;
+using PAW.Data.Models;
 
-namespace PAW3.Data.Repositories;
+
+namespace PAW.Data.Repositories;
 
 /// <summary>
 /// Interface for basic repository operations.
@@ -73,15 +74,15 @@ public interface IRepositoryBase<T>
 /// <typeparam name="T">Entity type.</typeparam>
 public abstract class RepositoryBase<T> : IRepositoryBase<T> where T : class
 {
-    private readonly ProductDbContext _context;
-    protected ProductDbContext DbContext => _context;
+    private readonly HallOfFameContext _context;
+    protected HallOfFameContext DbContext => _context;
     protected DbSet<T> DbSet;
 
     /// <summary>
     /// Initializes a new instance of the <see cref="RepositoryBase{T}"/> class.
     /// </summary>
     /// <param name="context">The database context.</param>
-    public RepositoryBase(ProductDbContext context)
+    public RepositoryBase(HallOfFameContext context)
     {
         _context = context;
         DbSet = _context.Set<T>();
