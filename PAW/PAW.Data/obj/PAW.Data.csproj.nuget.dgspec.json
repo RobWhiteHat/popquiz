@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\UFide Local\\Software\\01-Clases\\Programacion_Avanzada_Web\\PAW\\PAW.Data\\PAW.Data.csproj": {}
+    "C:\\dev\\popquiz\\PAW\\PAW.Data\\PAW.Data.csproj": {}
   },
   "projects": {
-    "D:\\UFide Local\\Software\\01-Clases\\Programacion_Avanzada_Web\\PAW\\PAW.Data\\PAW.Data.csproj": {
+    "C:\\dev\\popquiz\\PAW\\PAW.Data\\PAW.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\UFide Local\\Software\\01-Clases\\Programacion_Avanzada_Web\\PAW\\PAW.Data\\PAW.Data.csproj",
+        "projectUniqueName": "C:\\dev\\popquiz\\PAW\\PAW.Data\\PAW.Data.csproj",
         "projectName": "PAW.Data",
-        "projectPath": "D:\\UFide Local\\Software\\01-Clases\\Programacion_Avanzada_Web\\PAW\\PAW.Data\\PAW.Data.csproj",
-        "packagesPath": "C:\\Users\\r4que\\.nuget\\packages\\",
-        "outputPath": "D:\\UFide Local\\Software\\01-Clases\\Programacion_Avanzada_Web\\PAW\\PAW.Data\\obj\\",
+        "projectPath": "C:\\dev\\popquiz\\PAW\\PAW.Data\\PAW.Data.csproj",
+        "packagesPath": "C:\\Users\\Jorge Alfaro\\.nuget\\packages\\",
+        "outputPath": "C:\\dev\\popquiz\\PAW\\PAW.Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\r4que\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Jorge Alfaro\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,6 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
